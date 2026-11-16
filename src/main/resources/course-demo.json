@@ -1,0 +1,78 @@
+{
+  "courses": [
+    {
+      "name": "Java Fundamentals",
+      "capacity": 2
+    },
+    {
+      "name": "Algorithms",
+      "capacity": 1
+    }
+  ],
+  "students": [
+    {
+      "id": "Tushar",
+      "prerequisiteCompleted": true
+    },
+    {
+      "id": "Test1",
+      "prerequisiteCompleted": true
+    },
+    {
+      "id": "Bhardwaj",
+      "prerequisiteCompleted": true
+    },
+    {
+      "id": "Nope",
+      "prerequisiteCompleted": true
+    },
+    {
+      "id": "Codex",
+      "prerequisiteCompleted": false
+    }
+  ],
+  "enrollmentRequests": [
+    {
+      "course": "Java Fundamentals",
+      "student": "Tushar"
+    },
+    {
+      "course": "Java Fundamentals",
+      "student": "Test1"
+    },
+    {
+      "course": "Java Fundamentals",
+      "student": "Bhardwaj"
+    },
+    {
+      "course": "Java Fundamentals",
+      "student": "Nope"
+    },
+    {
+      "course": "Java Fundamentals",
+      "student": "Tushar"
+    },
+    {
+      "course": "Java Fundamentals",
+      "student": "Eve"
+    },
+    {
+      "course": "Algorithms",
+      "student": "Tushar"
+    },
+    {
+      "course": "Algorithms",
+      "student": "Bhardwaj"
+    }
+  ],
+  "dropRequests": [
+    {
+      "course": "Java Fundamentals",
+      "student": "Test1"
+    },
+    {
+      "course": "Algorithms",
+      "student": "Tushar"
+    }
+  ]
+}
